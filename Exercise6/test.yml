@@ -1,0 +1,23 @@
+---
+- name: Web Server
+  hosts: all
+  remote_user: root
+
+  tasks:
+  - name: Setup Apache Server
+    apt:
+      name: apache2
+      state: present
+  - name: Setup php
+    apt:
+      name: php
+      state: present
+  - name: Set timezone to WAT
+    command: timedatectl set-timezone Africa/Lagos
+  - name: Create an index.php file
+    copy:
+      dest: "/home/index.php"
+      content: |
+        <?php
+        date ("F d, Y h:i:s A e", time());
+        ?>
