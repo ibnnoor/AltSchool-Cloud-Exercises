@@ -29,7 +29,8 @@ The syntax is clr="clear"
 
 ![image](https://user-images.githubusercontent.com/59290700/200819557-e3073823-5550-4363-aff9-52c0e617c2c1.png)  
 
-8 grep command: searches a file for a particular pattern of characters, and displays all lines that contain that pattern  
+8 grep command: searches a file for a particular pattern of characters, and displays all lines that contain that pattern
+
 
 
 ![image](https://user-images.githubusercontent.com/59290700/200820045-f81fd94a-62ae-440a-baff-d53cebd42751.png)   
