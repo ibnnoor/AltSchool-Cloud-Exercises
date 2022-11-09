@@ -11,11 +11,10 @@ I learnt about version control with the help of git, github and gitlab. Version 
 
 Creating a Github and Gitlab account and setting up the global-config name and email on git
 
-Screenshots of thr output of the following commands
+Screenshots of the output of the following commands
 
-* git config -L
-![Screenshot](/git1.png) 
+* git config -L  git1.png
+* 
+* git remote -v  git3.png
 
-* git remote -v
-
-* git log
+* git log     git2.png
